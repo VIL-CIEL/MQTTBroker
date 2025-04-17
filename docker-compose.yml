@@ -6,8 +6,17 @@ services:
     container_name: mqtt_brocker 
     ports: 
       - "1883:1883" # TCP 
+      - "9001:9001" # Websocket 
     volumes: 
       - ./mosquitto/config:/mosquitto/config 
       - ./mosquitto/data:/mosquitto/data 
       - ./mosquitto/log:/mosquitto/log 
     restart: unless-stopped 
+  mqttx-web: 
+    image: emqx/mqttx-web 
+    container_name: mqttx_web 
+    ports: 
+      - "8081:80"  # Interface Web 
+    depends_on: 
+      - mqtt 
+    restart: unless-stopped  
