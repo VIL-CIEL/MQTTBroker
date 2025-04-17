@@ -1,0 +1,24 @@
+1744876442: mosquitto version 2.0.21 starting
+1744876442: Config loaded from /mosquitto/config/mosquitto.conf.
+1744876442: Opening ipv4 listen socket on port 1883.
+1744876442: Opening ipv6 listen socket on port 1883.
+1744876442: mosquitto version 2.0.21 running
+1744876454: mosquitto version 2.0.21 terminating
+1744876457: mosquitto version 2.0.21 starting
+1744876457: Config loaded from /mosquitto/config/mosquitto.conf.
+1744876457: Opening ipv4 listen socket on port 1883.
+1744876457: Opening ipv6 listen socket on port 1883.
+1744876457: mosquitto version 2.0.21 running
+1744876513: New connection from 172.18.0.1:44438 on port 1883.
+1744876513: New client connected from 172.18.0.1:44438 as postman-mqtt-client-1744876072622 (p5, c0, k60).
+1744876513: No will message specified.
+1744876513: Sending CONNACK to postman-mqtt-client-1744876072622 (0, 0)
+1744876517: Received SUBSCRIBE from postman-mqtt-client-1744876072622
+1744876517: 	myTopic (QoS 0)
+1744876517: postman-mqtt-client-1744876072622 0 myTopic
+1744876517: Sending SUBACK to postman-mqtt-client-1744876072622
+1744876531: Received PUBLISH from postman-mqtt-client-1744876072622 (d0, q0, r0, m0, 'myTopic', ... (7 bytes))
+1744876531: Sending PUBLISH to postman-mqtt-client-1744876072622 (d0, q0, r0, m0, 'myTopic', ... (7 bytes))
+1744876581: Received DISCONNECT from postman-mqtt-client-1744876072622
+1744876581: Client postman-mqtt-client-1744876072622 disconnected.
+1744877571: mosquitto version 2.0.21 terminating
